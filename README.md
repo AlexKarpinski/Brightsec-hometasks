@@ -4,7 +4,6 @@
 
 ```
 git clone git@github.com:AlexKarpinski/Brightsec-hometasks.git
-
 ```
 
 ## Then install all dependencies:
@@ -17,7 +16,6 @@ npx install
 
 ```
 npx playwright install --with-deps
-
 ```
 
 ## Run Instructions 
@@ -28,7 +26,6 @@ Call Example
 
 ```
 npx playwright test
-
 ```
 
 ## Open report:
