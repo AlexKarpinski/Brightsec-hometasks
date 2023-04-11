@@ -1,5 +1,5 @@
 import {expect, test} from '@playwright/test';
-import {lessThanHalfRejected} from '../src/promise-lessThanHalfRejected';
+import {lessThanHalfRejected} from '../src/lessThanHalfRejected';
 
 test.describe('lessThanHalfRejected >> should be rejected @rejected', () => {
 
