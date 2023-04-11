@@ -90,5 +90,4 @@ test.describe('lessThanHalfRejected >> should throw @errorshandler', () => {
         await expect(lessThanHalfRejected(promiseCollection, timeout))
             .rejects.toThrow('At least one promise did not settle within the specified timeout');
     });
-
 });
