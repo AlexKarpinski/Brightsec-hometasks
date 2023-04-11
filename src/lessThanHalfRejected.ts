@@ -1,6 +1,7 @@
 /**
  * lessThanHalfRejected function returns a promise that:
  * - resolves if amount of rejected promises from promiseCollection is less than half of promiseCollection length
+ * - rejects otherwise
  * - rejects if at least one promise does not settle within the specified timeout
  *
  * @returns Promise<void>
