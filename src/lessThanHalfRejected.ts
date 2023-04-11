@@ -31,7 +31,7 @@ export const lessThanHalfRejected = async (promiseCollection: Promise<any>[], ti
         throw new Error('At least one promise did not settle within the specified timeout');
     }
 
-    const rejectedCountPromisesCount = results.filter(({ status }) => status === 'rejected').length;
+    const rejectedCountPromisesCount = results.filter(({status}) => status === 'rejected').length;
 
     if (rejectedCountPromisesCount > maxRejectedPromisesCount) {
         throw new Error(`Too many promises (${rejectedCountPromisesCount}) were rejected.`);
