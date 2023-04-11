@@ -18,7 +18,7 @@ npx install
 npx playwright install --with-deps
 ```
 
-## Run Instructions 
+## Run Instructions:
 ----- 
 The framework can be ran directly from the command line.
 
