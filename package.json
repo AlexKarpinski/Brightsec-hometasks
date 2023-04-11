@@ -1,0 +1,16 @@
+{
+  "name": "hometasks",
+  "version": "1.0.0",
+  "author": "Aliaksei Karpinski",
+  "license": "ISC",
+  "scripts": {
+    "playwright:all": "npx playwright test promise",
+    "playwright:rejected": "npx playwright test --grep @rejected",
+    "playwright:resolved": "npx playwright test --grep @resolved",
+    "playwright:errorshandler": "npx playwright --grep @errorshandler",
+    "report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.32.2"
+  }
+}
